@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Justin's Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	<h1>ajustilator</h1>
+	<div class="container animated lightSpeedIn">
+		<form>
+				<input type="text" class="animated bounce" id="output">
+		</form>
+		<div class="buttonClearBox">
+			<button id="buttonClear" class="animated bounce" onclick="buttonClear()">c</button>
+		</div>
+		<div>
+			<button id="button1" class="animated bounce buttonAnimate" onclick="buttonOne(1)">1</button>
+			<button id="button2" class="animated bounce buttonAnimate" onclick="buttonTwo(2)">2</button>
+			<button id="button3" class="animated bounce buttonAnimate" onclick="buttonThree(3)">3</button>
+			<button id="buttonSub" class="animated bounce buttonAnimate" onclick="buttonSubtract('-')">-</button>
+		</div>
+		<div>
+			<button id="button4" class="animated bounce buttonAnimate" onclick="buttonFour(4)">4</button>
+			<button id="button5" class="animated bounce buttonAnimate" onclick="buttonFive(5)">5</button>
+			<button id="button6" class="animated bounce buttonAnimate" onclick="buttonSix(6)">6</button>
+			<button id="buttonMulti" class="animated bounce buttonAnimate" onclick="buttonMultiplication('*')">*</button>
+		</div>
+		<div>
+			<button id="button7" class="animated bounce buttonAnimate" onclick="buttonSeven(7)">7</button>
+			<button id="button8" class="animated bounce buttonAnimate" onclick="buttonEight(8)">8</button>
+			<button id="button9" class="animated bounce buttonAnimate" onclick="buttonNine(9)">9</button>
+			<button id="buttonDiv" class="animated bounce buttonAnimate" onclick="buttonDivision('/')">/</button>
+		</div>
+		<div>
+			<button id="buttonDec" class="animated bounce buttonAnimate" onclick="buttonDecimal('.')">.</button>
+			<button id="button0" class="animated bounce buttonAnimate" onclick="buttonZero(0)">0</button>
+			<button id="buttonEqual" class="animated bounce" onclick="buttonEquals()">=</button>
+			<button id="buttonAdd" class="animated bounce buttonAnimate" onclick="buttonAddition('+')">+</button>
+		</div>
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>
